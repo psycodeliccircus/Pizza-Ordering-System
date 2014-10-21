@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Pizza_Ordering_SystemDataSet10" targetNamespace="http://tempuri.org/Pizza_Ordering_SystemDataSet10.xsd" xmlns:mstns="http://tempuri.org/Pizza_Ordering_SystemDataSet10.xsd" xmlns="http://tempuri.org/Pizza_Ordering_SystemDataSet10.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Pizza_Ordering_SystemConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Pizza_Ordering_SystemConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Pizza_Ordering_System.Properties.Settings.GlobalReference.Default.Pizza_Ordering_SystemConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="orderviewTableAdapter" GeneratorDataComponentClassName="orderviewTableAdapter" Name="orderview" UserDataComponentName="orderviewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Pizza_Ordering_SystemConnectionString (Settings)" DbObjectName="[Pizza Ordering System].dbo.orderview" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT odrDate, odrQuantity, odrSize, odrPayMode, odrDelMode, odrDelCharges, odrPaymentDue, Beef, Pork, Chicken, Vegetarian, GoatMeat, Pineapple, Capsicum, Onion, Olive, Cheese, Mushroom, Garlic, Ginger, AllTroppings FROM dbo.orderview</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="odrDate" DataSetColumn="odrDate" />
+              <Mapping SourceColumn="odrQuantity" DataSetColumn="odrQuantity" />
+              <Mapping SourceColumn="odrSize" DataSetColumn="odrSize" />
+              <Mapping SourceColumn="odrPayMode" DataSetColumn="odrPayMode" />
+              <Mapping SourceColumn="odrDelMode" DataSetColumn="odrDelMode" />
+              <Mapping SourceColumn="odrDelCharges" DataSetColumn="odrDelCharges" />
+              <Mapping SourceColumn="odrPaymentDue" DataSetColumn="odrPaymentDue" />
+              <Mapping SourceColumn="Beef" DataSetColumn="Beef" />
+              <Mapping SourceColumn="Pork" DataSetColumn="Pork" />
+              <Mapping SourceColumn="Chicken" DataSetColumn="Chicken" />
+              <Mapping SourceColumn="Vegetarian" DataSetColumn="Vegetarian" />
+              <Mapping SourceColumn="GoatMeat" DataSetColumn="GoatMeat" />
+              <Mapping SourceColumn="Pineapple" DataSetColumn="Pineapple" />
+              <Mapping SourceColumn="Capsicum" DataSetColumn="Capsicum" />
+              <Mapping SourceColumn="Onion" DataSetColumn="Onion" />
+              <Mapping SourceColumn="Olive" DataSetColumn="Olive" />
+              <Mapping SourceColumn="Cheese" DataSetColumn="Cheese" />
+              <Mapping SourceColumn="Mushroom" DataSetColumn="Mushroom" />
+              <Mapping SourceColumn="Garlic" DataSetColumn="Garlic" />
+              <Mapping SourceColumn="Ginger" DataSetColumn="Ginger" />
+              <Mapping SourceColumn="AllTroppings" DataSetColumn="AllTroppings" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Pizza_Ordering_SystemDataSet10" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Pizza_Ordering_SystemDataSet10" msprop:Generator_UserDSName="Pizza_Ordering_SystemDataSet10">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="orderview" msprop:Generator_TableClassName="orderviewDataTable" msprop:Generator_TableVarName="tableorderview" msprop:Generator_TablePropName="orderview" msprop:Generator_RowDeletingName="orderviewRowDeleting" msprop:Generator_UserTableName="orderview" msprop:Generator_RowChangingName="orderviewRowChanging" msprop:Generator_RowEvHandlerName="orderviewRowChangeEventHandler" msprop:Generator_RowDeletedName="orderviewRowDeleted" msprop:Generator_RowEvArgName="orderviewRowChangeEvent" msprop:Generator_RowChangedName="orderviewRowChanged" msprop:Generator_RowClassName="orderviewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="odrDate" msprop:Generator_ColumnVarNameInTable="columnodrDate" msprop:Generator_ColumnPropNameInRow="odrDate" msprop:Generator_ColumnPropNameInTable="odrDateColumn" msprop:Generator_UserColumnName="odrDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="odrQuantity" msprop:Generator_ColumnVarNameInTable="columnodrQuantity" msprop:Generator_ColumnPropNameInRow="odrQuantity" msprop:Generator_ColumnPropNameInTable="odrQuantityColumn" msprop:Generator_UserColumnName="odrQuantity" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="odrSize" msprop:Generator_ColumnVarNameInTable="columnodrSize" msprop:Generator_ColumnPropNameInRow="odrSize" msprop:Generator_ColumnPropNameInTable="odrSizeColumn" msprop:Generator_UserColumnName="odrSize">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="odrPayMode" msprop:Generator_ColumnVarNameInTable="columnodrPayMode" msprop:Generator_ColumnPropNameInRow="odrPayMode" msprop:Generator_ColumnPropNameInTable="odrPayModeColumn" msprop:Generator_UserColumnName="odrPayMode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="odrDelMode" msprop:Generator_ColumnVarNameInTable="columnodrDelMode" msprop:Generator_ColumnPropNameInRow="odrDelMode" msprop:Generator_ColumnPropNameInTable="odrDelModeColumn" msprop:Generator_UserColumnName="odrDelMode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="odrDelCharges" msprop:Generator_ColumnVarNameInTable="columnodrDelCharges" msprop:Generator_ColumnPropNameInRow="odrDelCharges" msprop:Generator_ColumnPropNameInTable="odrDelChargesColumn" msprop:Generator_UserColumnName="odrDelCharges" type="xs:decimal" minOccurs="0" />
+              <xs:element name="odrPaymentDue" msprop:Generator_ColumnVarNameInTable="columnodrPaymentDue" msprop:Generator_ColumnPropNameInRow="odrPaymentDue" msprop:Generator_ColumnPropNameInTable="odrPaymentDueColumn" msprop:Generator_UserColumnName="odrPaymentDue" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Beef" msprop:Generator_ColumnVarNameInTable="columnBeef" msprop:Generator_ColumnPropNameInRow="Beef" msprop:Generator_ColumnPropNameInTable="BeefColumn" msprop:Generator_UserColumnName="Beef" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Pork" msprop:Generator_ColumnVarNameInTable="columnPork" msprop:Generator_ColumnPropNameInRow="Pork" msprop:Generator_ColumnPropNameInTable="PorkColumn" msprop:Generator_UserColumnName="Pork" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Chicken" msprop:Generator_ColumnVarNameInTable="columnChicken" msprop:Generator_ColumnPropNameInRow="Chicken" msprop:Generator_ColumnPropNameInTable="ChickenColumn" msprop:Generator_UserColumnName="Chicken" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Vegetarian" msprop:Generator_ColumnVarNameInTable="columnVegetarian" msprop:Generator_ColumnPropNameInRow="Vegetarian" msprop:Generator_ColumnPropNameInTable="VegetarianColumn" msprop:Generator_UserColumnName="Vegetarian" type="xs:boolean" minOccurs="0" />
+              <xs:element name="GoatMeat" msprop:Generator_ColumnVarNameInTable="columnGoatMeat" msprop:Generator_ColumnPropNameInRow="GoatMeat" msprop:Generator_ColumnPropNameInTable="GoatMeatColumn" msprop:Generator_UserColumnName="GoatMeat" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Pineapple" msprop:Generator_ColumnVarNameInTable="columnPineapple" msprop:Generator_ColumnPropNameInRow="Pineapple" msprop:Generator_ColumnPropNameInTable="PineappleColumn" msprop:Generator_UserColumnName="Pineapple" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Capsicum" msprop:Generator_ColumnVarNameInTable="columnCapsicum" msprop:Generator_ColumnPropNameInRow="Capsicum" msprop:Generator_ColumnPropNameInTable="CapsicumColumn" msprop:Generator_UserColumnName="Capsicum" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Onion" msprop:Generator_ColumnVarNameInTable="columnOnion" msprop:Generator_ColumnPropNameInRow="Onion" msprop:Generator_ColumnPropNameInTable="OnionColumn" msprop:Generator_UserColumnName="Onion" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Olive" msprop:Generator_ColumnVarNameInTable="columnOlive" msprop:Generator_ColumnPropNameInRow="Olive" msprop:Generator_ColumnPropNameInTable="OliveColumn" msprop:Generator_UserColumnName="Olive" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Cheese" msprop:Generator_ColumnVarNameInTable="columnCheese" msprop:Generator_ColumnPropNameInRow="Cheese" msprop:Generator_ColumnPropNameInTable="CheeseColumn" msprop:Generator_UserColumnName="Cheese" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Mushroom" msprop:Generator_ColumnVarNameInTable="columnMushroom" msprop:Generator_ColumnPropNameInRow="Mushroom" msprop:Generator_ColumnPropNameInTable="MushroomColumn" msprop:Generator_UserColumnName="Mushroom" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Garlic" msprop:Generator_ColumnVarNameInTable="columnGarlic" msprop:Generator_ColumnPropNameInRow="Garlic" msprop:Generator_ColumnPropNameInTable="GarlicColumn" msprop:Generator_UserColumnName="Garlic" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Ginger" msprop:Generator_ColumnVarNameInTable="columnGinger" msprop:Generator_ColumnPropNameInRow="Ginger" msprop:Generator_ColumnPropNameInTable="GingerColumn" msprop:Generator_UserColumnName="Ginger" type="xs:boolean" minOccurs="0" />
+              <xs:element name="AllTroppings" msprop:Generator_ColumnVarNameInTable="columnAllTroppings" msprop:Generator_ColumnPropNameInRow="AllTroppings" msprop:Generator_ColumnPropNameInTable="AllTroppingsColumn" msprop:Generator_UserColumnName="AllTroppings" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

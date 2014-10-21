@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{31DE9BB2-8AE4-45E3-9F8C-C180B5C2EF8D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pizza_Ordering_System</RootNamespace>
+    <AssemblyName>Pizza Ordering System</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="about us.Designer.cs">
+      <DependentUpon>about us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustDtl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustDtl.Designer.cs">
+      <DependentUpon>frmCustDtl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogIn.Designer.cs">
+      <DependentUpon>frmLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewUser.Designer.cs">
+      <DependentUpon>frmNewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOdrDtl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOdrDtl.Designer.cs">
+      <DependentUpon>frmOdrDtl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_Ordering_SystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pizza_Ordering_SystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_Ordering_SystemDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pizza_Ordering_SystemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_Ordering_SystemDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pizza_Ordering_SystemDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_Ordering_SystemDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pizza_Ordering_SystemDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_Ordering_SystemDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pizza_Ordering_SystemDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_Ordering_SystemDataSet31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pizza_Ordering_SystemDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_Ordering_SystemDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pizza_Ordering_SystemDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_Ordering_SystemDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pizza_Ordering_SystemDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_Ordering_SystemDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pizza_Ordering_SystemDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_Ordering_SystemDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pizza_Ordering_SystemDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_Ordering_SystemDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pizza_Ordering_SystemDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza_Ordering_SystemDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pizza_Ordering_SystemDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="about us.resx">
+      <DependentUpon>about us.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustDtl.resx">
+      <DependentUpon>frmCustDtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogIn.resx">
+      <DependentUpon>frmLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewUser.resx">
+      <DependentUpon>frmNewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOdrDtl.resx">
+      <DependentUpon>frmOdrDtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Pizza_Ordering_SystemDataSet.xsc">
+      <DependentUpon>Pizza_Ordering_SystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Pizza_Ordering_SystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet.xss">
+      <DependentUpon>Pizza_Ordering_SystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet1.xsc">
+      <DependentUpon>Pizza_Ordering_SystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Pizza_Ordering_SystemDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet1.xss">
+      <DependentUpon>Pizza_Ordering_SystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet10.xsc">
+      <DependentUpon>Pizza_Ordering_SystemDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Pizza_Ordering_SystemDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet10.xss">
+      <DependentUpon>Pizza_Ordering_SystemDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet11.xsc">
+      <DependentUpon>Pizza_Ordering_SystemDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Pizza_Ordering_SystemDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet11.xss">
+      <DependentUpon>Pizza_Ordering_SystemDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet2.xsc">
+      <DependentUpon>Pizza_Ordering_SystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Pizza_Ordering_SystemDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet2.xss">
+      <DependentUpon>Pizza_Ordering_SystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet31.xsc">
+      <DependentUpon>Pizza_Ordering_SystemDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Pizza_Ordering_SystemDataSet31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet31.xss">
+      <DependentUpon>Pizza_Ordering_SystemDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet4.xsc">
+      <DependentUpon>Pizza_Ordering_SystemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Pizza_Ordering_SystemDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet4.xss">
+      <DependentUpon>Pizza_Ordering_SystemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet5.xsc">
+      <DependentUpon>Pizza_Ordering_SystemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Pizza_Ordering_SystemDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet5.xss">
+      <DependentUpon>Pizza_Ordering_SystemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet6.xsc">
+      <DependentUpon>Pizza_Ordering_SystemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Pizza_Ordering_SystemDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet6.xss">
+      <DependentUpon>Pizza_Ordering_SystemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet7.xsc">
+      <DependentUpon>Pizza_Ordering_SystemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Pizza_Ordering_SystemDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet7.xss">
+      <DependentUpon>Pizza_Ordering_SystemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet8.xsc">
+      <DependentUpon>Pizza_Ordering_SystemDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Pizza_Ordering_SystemDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet8.xss">
+      <DependentUpon>Pizza_Ordering_SystemDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet9.xsc">
+      <DependentUpon>Pizza_Ordering_SystemDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Pizza_Ordering_SystemDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pizza_Ordering_SystemDataSet9.xss">
+      <DependentUpon>Pizza_Ordering_SystemDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
